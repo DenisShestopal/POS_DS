@@ -1,5 +1,7 @@
 package Entities;
 
-public interface Drink {
+public interface Drink<T>{
+
+    boolean makeDrink()
 
 }

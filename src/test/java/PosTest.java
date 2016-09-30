@@ -1,5 +1,5 @@
-import Entities.DrinkImpl;
-import Entities.MachineImpl;
+import Entities.Impl.DrinkImpl;
+import Entities.Impl.MachineImpl;
 import org.junit.Test;
 
 public class PosTest {
