@@ -13,4 +13,8 @@ public interface Machine {
 
     boolean addQuantity(Integer quantity);
 
+    boolean start();
+
+    boolean drinksList();
+
 }

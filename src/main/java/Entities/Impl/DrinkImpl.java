@@ -4,7 +4,9 @@ import Entities.Drink;
 
 public class DrinkImpl implements Drink {
 
-    public void make() {
-        System.out.println("drink made");
+    private Drink drink;
+
+    public boolean makeDrink(String drinkType) {
+        return false;
     }
 }

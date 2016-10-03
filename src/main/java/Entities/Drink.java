@@ -1,7 +1,13 @@
 package Entities;
 
-public interface Drink<T>{
+import java.util.HashMap;
+import java.util.Map;
 
-    boolean makeDrink()
+public interface Drink{
+
+    boolean makeDrink(String drinkType);
+
+    Map<Integer, String> drinks = new HashMap<Integer, String>();
+
 
 }
