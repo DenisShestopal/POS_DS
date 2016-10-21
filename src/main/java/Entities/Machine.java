@@ -1,11 +1,11 @@
 package Entities;
 
-import java.util.Map;
+import java.util.List;
 
 public interface Machine {
-    boolean makeDrink(Map<String, Integer> drink);
+    boolean makeDrink(List<String> drinksList);
 
-    boolean addDrink(String drinkType);
+    boolean addDrink();
 
     boolean takeMoney(Double money);
 
@@ -15,6 +15,8 @@ public interface Machine {
 
     boolean start();
 
-    boolean drinksList();
+    boolean getAvailableDrinksList();
+
+    boolean makeDrinks(List<Drink> drinksList);
 
 }
